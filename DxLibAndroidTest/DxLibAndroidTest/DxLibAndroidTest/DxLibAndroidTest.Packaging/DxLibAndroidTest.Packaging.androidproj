@@ -119,7 +119,15 @@
     </AntPackage>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Content Include="assets\background.png" />
+    <Content Include="assets\chaser.png" />
+    <Content Include="assets\DxLogo.jpg" />
+    <Content Include="assets\faster.png" />
+    <Content Include="assets\garbage.png" />
     <Content Include="assets\images.jpg" />
+    <Content Include="assets\notmovie.png" />
+    <Content Include="assets\player.png" />
+    <Content Include="assets\underground.png" />
     <Content Include="res\values\strings.xml" />
     <AntBuildXml Include="build.xml" />
     <AndroidManifest Include="AndroidManifest.xml" />

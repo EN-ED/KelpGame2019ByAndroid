@@ -2,5 +2,19 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Logo.cpp" />
+    <ClCompile Include="BaseScene.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="Title.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Logo.hpp" />
+    <ClInclude Include="BaseScene.hpp" />
+    <ClInclude Include="Game.hpp" />
+    <ClInclude Include="GameOver.hpp" />
+    <ClInclude Include="Manager.hpp" />
+    <ClInclude Include="Title.hpp" />
   </ItemGroup>
 </Project>
