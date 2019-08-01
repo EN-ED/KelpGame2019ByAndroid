@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DxLibAndroidTest", "DxLibAndroidTest", "{0FAB95C7-3308-45B2-B0F1-565AD566CF3B}"
+EndProject
+Project("{39E2626F-3545-4960-A6E8-258AD8476CE5}") = "DxLibAndroidTest.Packaging", "DxLibAndroidTest\DxLibAndroidTest.Packaging\DxLibAndroidTest.Packaging.androidproj", "{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DxLibAndroidTest.NativeActivity", "DxLibAndroidTest\DxLibAndroidTest.NativeActivity\DxLibAndroidTest.NativeActivity.vcxproj", "{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Debug|ARM.ActiveCfg = Debug|ARM
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Debug|ARM.Build.0 = Debug|ARM
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Debug|ARM.Deploy.0 = Debug|ARM
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Debug|ARM64.Build.0 = Debug|ARM64
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Debug|x64.ActiveCfg = Debug|x64
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Debug|x64.Build.0 = Debug|x64
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Debug|x64.Deploy.0 = Debug|x64
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Debug|x86.ActiveCfg = Debug|x86
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Debug|x86.Build.0 = Debug|x86
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Debug|x86.Deploy.0 = Debug|x86
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Release|ARM.ActiveCfg = Release|ARM
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Release|ARM.Build.0 = Release|ARM
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Release|ARM.Deploy.0 = Release|ARM
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Release|ARM64.ActiveCfg = Release|ARM64
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Release|ARM64.Build.0 = Release|ARM64
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Release|ARM64.Deploy.0 = Release|ARM64
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Release|x64.ActiveCfg = Release|x64
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Release|x64.Build.0 = Release|x64
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Release|x64.Deploy.0 = Release|x64
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Release|x86.ActiveCfg = Release|x86
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Release|x86.Build.0 = Release|x86
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49}.Release|x86.Deploy.0 = Release|x86
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}.Debug|ARM.Build.0 = Debug|ARM
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}.Debug|ARM64.Build.0 = Debug|ARM64
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}.Debug|x64.ActiveCfg = Debug|x64
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}.Debug|x64.Build.0 = Debug|x64
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}.Debug|x86.ActiveCfg = Debug|x86
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}.Debug|x86.Build.0 = Debug|x86
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}.Release|ARM.ActiveCfg = Release|ARM
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}.Release|ARM.Build.0 = Release|ARM
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}.Release|ARM64.ActiveCfg = Release|ARM64
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}.Release|ARM64.Build.0 = Release|ARM64
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}.Release|x64.ActiveCfg = Release|x64
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}.Release|x64.Build.0 = Release|x64
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}.Release|x86.ActiveCfg = Release|x86
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EBF57236-3D0E-4819-AE6A-2C552F8A9C49} = {0FAB95C7-3308-45B2-B0F1-565AD566CF3B}
+		{5FB575FF-F2C5-49CA-A02D-4FD0D397E9D1} = {0FAB95C7-3308-45B2-B0F1-565AD566CF3B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65BC545E-D02D-47C3-AB6E-122E8C77648A}
+	EndGlobalSection
+EndGlobal
